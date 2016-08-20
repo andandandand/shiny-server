@@ -83,8 +83,8 @@ bdm2D <- function(mat, blockSize, offset){
 # testResul2 <- bdm2D(m99, 3, 3)
 # testResul2
 
-m88 <- as.matrix(read.csv("./m88.csv"))
-blo <- 3
-ove <- 1
-test <- bdm2D(m88, blo, blo-ove)
-test
+# m88 <- as.matrix(read.csv("./m88.csv"))
+# blo <- 3
+# ove <- 1
+# test <- bdm2D(m88, blo, blo-ove)
+# test
