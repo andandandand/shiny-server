@@ -58,11 +58,11 @@ bdm2D <- function(mat, blockSize, offset){
   squaresTally$flatSquares <- NULL
   
   if(blockSize == 4){
-    bdm <- (sum(fourByFourCTM[rownames(squaresTally),]) 
-      + sum(log2(squaresTally$Freq)))
+    bdm <- (sum(fourByFourCTM[rownames(squaresTally),]) +
+       sum(log2(squaresTally$Freq)))
   } else{
-    bdm <- (sum(threeByThreeCTM[rownames(squaresTally),]) 
-      + sum(log2(squaresTally$Freq)))
+    bdm <- (sum(threeByThreeCTM[rownames(squaresTally),]) +
+       sum(log2(squaresTally$Freq)))
   }
   
   return(bdm)
